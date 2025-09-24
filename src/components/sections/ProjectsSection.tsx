@@ -74,7 +74,7 @@ export function ProjectsSection() {
                       <div className="flex-1">
                         {/* Header */}
                         <div className="mb-4">
-                          <div className="flex items-center space-x-3 mb-2">
+                          <div className="flex flex-wrap items-center gap-2 mb-2">
                             <Badge variant={getProjectColor(index)} size="sm">
                               <Calendar className="h-3 w-3 mr-1" />
                               {project.period}
