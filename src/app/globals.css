@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  html {
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+  
+  body {
+    @apply bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-300;
+  }
+  
+  /* 平滑滚动 */
+  html {
+    scroll-behavior: smooth;
+    /* 移动端滚动优化 */
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  /* 移动端滚动优化 */
+  body {
+    /* 防止移动端滚动时的橡皮筋效果 */
+    overscroll-behavior: contain;
+    /* 改善移动端滚动性能 */
+    -webkit-overflow-scrolling: touch;
+    /* 确保移动端可以正常滚动 */
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  
+  /* 移动端触摸滚动优化 */
+  @media (max-width: 768px) {
+    html, body {
+      /* 确保移动端滚动流畅 */
+      -webkit-overflow-scrolling: touch;
+      /* 防止滚动时的延迟 */
+      touch-action: pan-y;
+    }
+  }
+  
+  /* 自定义滚动条 */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    @apply bg-gray-100 dark:bg-gray-800;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    @apply bg-gray-400 dark:bg-gray-600 rounded-full;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-gray-500 dark:bg-gray-500;
+  }
+}
+
+@layer components {
+  .glass-effect {
+    @apply backdrop-blur-md bg-white/80 dark:bg-gray-900/80 border border-white/20 dark:border-gray-700/20;
+  }
+  
+  .gradient-text {
+    @apply bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 bg-clip-text text-transparent;
+  }
+  
+  .section-padding {
+    @apply px-6 sm:px-8 lg:px-12 xl:px-16;
+  }
+  
+  .container-max {
+    @apply max-w-7xl mx-auto;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

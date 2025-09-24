@@ -1,0 +1,196 @@
+{
+  "nav": {
+    "home": "首页",
+    "about": "关于",
+    "blog": "博客",
+    "contact": "联系"
+  },
+  "hero": {
+    "greeting": "你好，我是",
+    "name": "韦凌枫",
+    "title": "AI应用全栈工程师",
+    "description": "热衷于AI应用、全栈开发，致力于将创新想法变为现实。在LLM框架、智能体系统、现代Web技术和核物理科学计算方面经验丰富。核物理专业背景让我对物理数学科学充满热情，期待为科学发展贡献力量。热爱铁人三项运动，秉持长期主义理念。",
+    "cta": "联系我",
+    "downloadCV": "下载简历"
+  },
+  "about": {
+    "title": "关于我",
+    "subtitle": "了解更多",
+    "introTitle": "自我介绍",
+    "intro": "我是一名专注于AI应用和LLM集成的全栈工程师。拥有核工程背景和多年现代Web开发经验，为解决复杂技术挑战带来独特视角。",
+    "contact": {
+      "title": "联系信息",
+      "gender": "性别",
+      "male": "男",
+      "age": "年龄",
+      "currentCity": "现居城市",
+      "hometown": "家乡",
+      "interests": "兴趣爱好",
+      "email": "邮箱"
+    },
+    "details": {
+      "currentCity": "上海",
+      "interests": "吉他、铁人三项",
+      "email": "dimitri.wei.lingfeng@gmail.com"
+    }
+  },
+  "education": {
+    "title": "教育经历",
+    "subtitle": "学术背景",
+    "master": {
+      "period": "2017年8月 - 2019年6月",
+      "school": "中山大学",
+      "major": "核能与核技术工程",
+      "description": "中法核工程与技术学院(IFCEN)硕士毕业，获得法国工程师文凭，毕业论文关于中子输运方程求解器。"
+    },
+    "bachelor": {
+      "period": "2013年8月 - 2017年6月",
+      "school": "中山大学",
+      "major": "核工程与技术",
+      "description": "中法核工程与技术学院(IFCEN)本科毕业，学习了C语言和MATLAB在科学计算程序开发中的应用。"
+    }
+  },
+  "experience": {
+    "title": "工作经历",
+    "subtitle": "职业历程",
+    "current": {
+      "period": "2022年7月至今",
+      "company": "无限光年（上海）科技有限公司",
+      "url": "https://infly.cn",
+      "position": "AI应用全栈工程师"
+    },
+    "previous": [
+      {
+        "period": "2021年5月 - 2022年",
+        "company": "特赞（上海）信息技术有限公司",
+        "url": "https://tezign.com",
+        "position": "前端工程师"
+      },
+      {
+        "period": "2019年7月 - 2021年4月",
+        "company": "上海核星核电技术有限公司",
+        "url": "https://www.nustarnuclear.com/",
+        "position": "全栈工程师"
+      }
+    ]
+  },
+  "skills": {
+    "title": "技术栈",
+    "subtitle": "我使用的技术",
+    "categories": {
+      "llm": "LLM技术栈",
+      "agent": "智能体技术栈",
+      "backend": "后端技术栈",
+      "frontend": "前端技术栈",
+      "testing": "测试",
+      "others": "其他"
+    },
+    "stacks": {
+      "llm": "vllm, function call, structured output, torch distributed",
+      "agent": "autogen, langgraph, dify, langflow, openai sdk, mcp, langfuse",
+      "backend": "python, golang, nodejs, gin, Django, fastapi, nextjs, pg, mongo, oauth2",
+      "frontend": "js, ts, react, vue, nextjs, redux, recoil, jotai, rxjs, antd, prosemirror, tiptap, yjs",
+      "testing": "pytest, jest, playwright",
+      "others": "k8s, docker, gitlab cicd, nginx, figma ui design"
+    }
+  },
+  "advantages": {
+    "title": "核心优势",
+    "subtitle": "我的独特之处",
+    "list": [
+      "在AI应用从0到1开发方面有扎实经验",
+      "熟悉核计算中的线性代数；熟悉NLP、大语言模型和注意力机制",
+      "具有VLLM推理优化和强化学习框架的一些经验",
+      "双语能力：英语CET-6，法语DELF-B2",
+      "性格直接坦率，情绪稳定，专注于事实",
+      "高效率，致力于长期成长，保持健康的工作生活平衡",
+      "定期实践测试驱动开发(TDD)以提高开发和维护效率",
+      "扎实的DevOps经验，包括使用GitLab和Kubernetes代理的自动化CI/CD流水线进行持续集成和部署"
+    ]
+  },
+  "projects": {
+    "title": "项目经验",
+    "subtitle": "参与的重要项目",
+    "list": [
+      {
+        "period": "2025年6月至今",
+        "title": "AI药物发现协作平台 (INF)",
+        "role": "全栈开发者（前端负责人）",
+        "description": "领导前端开发并参与多智能体架构设计，构建面向科学协作的AI驱动药物发现平台。设计和实现了Copilot风格的多用户文档协作机制和基于智能体的助手框架，支持研究工作流程。"
+      },
+      {
+        "period": "2025年2月 - 2025年4月",
+        "title": "强化学习框架开发 (INF)",
+        "role": "Rollout模块负责人",
+        "description": "独立设计和实现强化学习框架的推理采样模块，支持多轮对话、异步批处理、可定制智能体和视觉语言模型集成等高级功能。该框架为INFLY-RL-SQL-32B的训练提供支持，在2025年4月的Bird-Bench上取得第2名，目前正用于训练Android World的视觉语言模型。"
+      },
+      {
+        "period": "2024年11月 - 2025年1月",
+        "title": "Function calling & structured output (INF)",
+        "role": "项目负责人",
+        "description": "领导函数调用和结构化输出协议的设计和实现。主动与业务团队协作，统一各用例的产品接口，形成内外部利益相关者使用的统一API层。通过平台的开放性和可靠性帮助获得国际客户；为公司内的SFT流水线、强化学习训练和智能体编排奠定了技术基础。"
+      },
+      {
+        "period": "2024年6月 - 2025年1月",
+        "title": "LLM模型接口开放平台(INF)",
+        "url": "https://platform.infly.cn",
+        "role": "全栈开发者（前端负责人）",
+        "description": "设计和实现INF的在线模型服务开放平台，专注于API key管理，网关、充值、计费、账单明细和接口标准化等关键功能"
+      },
+      {
+        "period": "2023年3月 - 2024年6月",
+        "title": "Inf-Chat技术负责人 (INF)",
+        "url": "https://chat.infly.cn",
+        "role": "全栈开发者（前端负责人）",
+        "description": "开发公司早期聊天机器人应用Inf-Chat。对于INF第一版基础模型（66B）的训练和发布、大模型备案、融资和业务推广发挥了关键作用。"
+      },
+      {
+        "period": "2022年7月 - 2024年3月",
+        "title": "内部药物研发平台 (INF)",
+        "role": "原型设计师和前端负责人",
+        "description": "和药物研发团队合作，使用Figma设计原型并开发了多个药物研发项目的原型：药物发现平台、药物设计平台、化合物管理平台等。"
+      },
+      {
+        "period": "2021年10月 - 2022年6月",
+        "title": "MuseDAM(特赞)",
+        "url": "https://dam.musetransfer.com",
+        "role": "前端负责人",
+        "description": "项目介绍：面向设计师的云盘，为众多文件扩展名提供出色的预览功能，并配有Chrome扩展的快速收集工具。使用MuseDAM可以轻松分类、上传、下载和分享文件。成就：高效、高质量的样式化架构，具有出色的开发体验。代码和设计稿(Figma)的统一样式规范，vite开发工具，使用jest的单元测试和使用playwright的端到端测试等。发布一个月后有5000注册用户，1500周活用户。"
+      },
+      {
+        "period": "2019年10月 - 2021年3月",
+        "title": "核反应堆在线监测平台 (核星)",
+        "role": "全栈开发者",
+        "description": "主要功能：一个仪表板，实时频繁更新，显示核电机组的当前状态、历史趋势、关键参数和警报。成就：借助基于Vuetify的管理模板，项目快速从django ssr迁移到django rest framework + vue架构。"
+      },
+      {
+        "period": "2019年7月 - 2019年10月",
+        "title": "3D通量图拟合恢复算法 (核星)",
+        "role": "算法开发者",
+        "description": "介绍：将反应堆3D堆芯的稀疏测量物理分布(56*50数组)拟合到更密集的分布(56*157*289数组)。成就：在速度和精度方面实现了优秀的算法性能。"
+      }
+    ]
+  },
+  "blog": {
+    "title": "博客",
+    "subtitle": "思考与见解",
+    "comingSoon": "博客板块即将上线...",
+    "readMore": "阅读更多",
+    "backToBlog": "返回博客"
+  },
+  "footer": {
+    "copyright": "© 2025 韦凌枫. 保留所有权利.",
+    "builtWith": "使用 Next.js 和 Tailwind CSS 构建"
+  },
+  "common": {
+    "loading": "加载中...",
+    "error": "出现了一些问题",
+    "retry": "重试",
+    "close": "关闭",
+    "open": "打开",
+    "menu": "菜单",
+    "darkMode": "深色模式",
+    "lightMode": "浅色模式"
+  }
+}
+

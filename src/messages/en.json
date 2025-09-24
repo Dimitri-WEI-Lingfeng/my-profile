@@ -1,0 +1,196 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hello, I'm",
+    "name": "WEI Lingfeng",
+    "title": "AI Application Full-Stack Engineer",
+    "description": "Passionate about AI applications, full-stack development, and bringing innovative ideas to life. Experienced in LLM frameworks, agent systems, modern web technologies, and nuclear physics numerical computing. With a background in nuclear physics, I have a deep passion for physics, mathematics, and science, eager to contribute to scientific advancement. I'm an Ironman triathlon enthusiast and a long-term thinker.",
+    "cta": "Get in touch",
+    "downloadCV": "Download CV"
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "Get to know me better",
+    "introTitle": "Introduction",
+    "intro": "I'm a passionate full-stack engineer specializing in AI applications and LLM integrations. With a strong background in nuclear engineering and years of experience in modern web development, I bring a unique perspective to solving complex technical challenges.",
+    "contact": {
+      "title": "Contact Information",
+      "gender": "Gender",
+      "male": "Male",
+      "age": "Age",
+      "currentCity": "Current City",
+      "hometown": "Hometown",
+      "interests": "Interests",
+      "email": "Email"
+    },
+    "details": {
+      "currentCity": "Shanghai",
+      "interests": "Guitar, Ironman",
+      "email": "dimitri.wei.lingfeng@gmail.com"
+    }
+  },
+  "education": {
+    "title": "Education",
+    "subtitle": "Academic background",
+    "master": {
+      "period": "August 2017 - June 2019",
+      "school": "Sun Yat-sen University",
+      "major": "Nuclear Energy and Nuclear Technique Engineering",
+      "description": "Master and Ingénieur diplômé (French graduate engineer) graduated from L'Institut franco-chinois de l'énergie nucléaire (IFCEN) with graduate thesis about neutron transport equation solver."
+    },
+    "bachelor": {
+      "period": "August 2013 - June 2017",
+      "school": "Sun Yat-sen University",
+      "major": "Nuclear Engineering and Technology",
+      "description": "Bachelor graduated from IFCEN. Learned C language and MATLAB in developing scientific computation programs."
+    }
+  },
+  "experience": {
+    "title": "Work Experience",
+    "subtitle": "Professional journey",
+    "current": {
+      "period": "July 2022 to present",
+      "company": "Infinite Light-Year (Shanghai) Technology Co., Ltd.",
+      "url": "https://infly.cn",
+      "position": "AI Application Full Stack Engineer"
+    },
+    "previous": [
+      {
+        "period": "May 2021 to 2022",
+        "company": "Tezign (Shanghai) Information Technology Co., Ltd.",
+        "url": "https://tezign.com",
+        "position": "Frontend Engineer"
+      },
+      {
+        "period": "July 2019 to April 2021",
+        "company": "Shanghai Nustar Nuclear Power Technology Co, Ltd",
+        "url": "https://www.nustarnuclear.com/",
+        "position": "Full Stack Engineer"
+      }
+    ]
+  },
+  "skills": {
+    "title": "Technical Stack",
+    "subtitle": "Technologies I work with",
+    "categories": {
+      "llm": "LLM Stack",
+      "agent": "Agent Stack",
+      "backend": "Backend Stack",
+      "frontend": "Frontend Stack",
+      "testing": "Testing",
+      "others": "Others"
+    },
+    "stacks": {
+      "llm": "vllm, function call, structured output, torch distributed",
+      "agent": "autogen, langgraph, dify, langflow, openai sdk, mcp, langfuse",
+      "backend": "python, golang, nodejs, gin, Django, fastapi, nextjs, pg, mongo, oauth2",
+      "frontend": "js, ts, react, vue, nextjs, redux, recoil, jotai, rxjs, antd, prosemirror, tiptap, yjs",
+      "testing": "pytest, jest, playwright",
+      "others": "k8s, docker, gitlab cicd, nginx, figma ui design"
+    }
+  },
+  "advantages": {
+    "title": "Key Advantages",
+    "subtitle": "What makes me unique",
+    "list": [
+      "Solid experience in AI application development from 0 to 1",
+      "Familiar with linear algebra in nuclear computation; familiar with NLP, large language models, and attention mechanisms",
+      "Some experience with vllm inference optimization and RL frameworks",
+      "Bilingual: CET-6 in English, DELF-B2 in French",
+      "Direct and straightforward personality, emotionally stable, and focused on facts",
+      "Highly efficient, committed to long-term growth with a healthy work-life balance",
+      "Regularly practices Test-Driven Development (TDD) to enhance development and maintenance efficiency",
+      "Solid DevOps experience, including automated CI/CD pipelines using GitLab and Kubernetes agents for continuous integration and deployment"
+    ]
+  },
+  "projects": {
+    "title": "Project Experience",
+    "subtitle": "Important projects I've participated in",
+    "list": [
+      {
+        "period": "June 2025 – present",
+        "title": "AI Drug Discovery Collaboration Platform (INF)",
+        "role": "Full-Stack Developer (Frontend Lead)",
+        "description": "Leading frontend development and participating in multi-agent architecture design, building an AI-driven drug discovery platform for scientific collaboration. Designed and implemented Copilot-style multi-user document collaboration mechanism and agent-based assistant framework to support research workflows."
+      },
+      {
+        "period": "February 2025 – April 2025",
+        "title": "Reinforcement Learning Framework Development (INF)",
+        "role": "Rollout Module Lead",
+        "description": "Independently designed and implemented the inference sampling module of a reinforcement learning framework, supporting advanced features such as multi-turn conversations, asynchronous batch processing, customizable agents, and vision-language model integration. This framework supported the training of INFLY-RL-SQL-32B, which achieved 2nd place on Bird-Bench in April 2025 and is currently being used to train vision-language models for Android World."
+      },
+      {
+        "period": "November 2024 - January 2025",
+        "title": "Function calling & structured output (INF)",
+        "role": "Project Lead",
+        "description": "Led the design and implementation of function calling and structured output protocols. Proactively collaborated with business teams to unify product interfaces across use cases, forming a unified API layer used by internal and external stakeholders. Helped secure international clients through platform openness and reliability; laid technical foundations for SFT pipelines, reinforcement learning training, and agent orchestration within the company."
+      },
+      {
+        "period": "June 2024 - January 2025",
+        "title": "Open Platform & API Standardization (INF)",
+        "url": "https://platform.infly.cn",
+        "role": "Full-Stack Developer (Frontend Lead)",
+        "description": "Designed and implemented INF's online model service open platform, focusing on key features such as API key management, gateway, recharge, billing, invoice details, and interface standardization."
+      },
+      {
+        "period": "March 2023 - June 2024",
+        "title": "Inf-Chat (INF)",
+        "url": "https://chat.infly.cn",
+        "role": "Full-Stack Developer (Frontend Lead)",
+        "description": "Developed the company's early-stage chatbot application Inf-Chat. Played a key role in INF's first version of foundational model(66B) training and release, large model registration, financing, and business promotion."
+      },
+      {
+        "period": "July 2022 - March 2023",
+        "title": "Internal Drug R&D Platform (INF)",
+        "role": "Prototype Designer and Frontend Lead",
+        "description": "Collaborated with drug R&D teams, used Figma to design prototypes and developed prototypes for multiple drug R&D projects: drug discovery platform, drug design platform, compound management platform, etc."
+      },
+      {
+        "period": "October 2021 - June 2022",
+        "title": "MuseDAM (Tezign)",
+        "url": "https://dam.musetransfer.com",
+        "role": "Frontend Lead",
+        "description": "Project Introduction: A cloud drive for designers, providing excellent preview functionality for numerous file extensions and quick collection tools with Chrome extension. With MuseDAM, it's easy to classify, upload, download, and share files. Achievement: Efficient, high-quality styled architecture with excellent development experience. Unified style specification for code and design drafts (Figma), vite development tools, unit testing with jest and end-to-end testing with playwright, etc. Achieved 5000 registered users and 1500 weekly active users one month after release."
+      },
+      {
+        "period": "October 2019 - March 2021",
+        "title": "Nuclear Reactor Online Monitoring Platform (Nustar)",
+        "role": "Full-Stack Developer",
+        "description": "Main functionality: A dashboard that updates frequently in real-time, displaying current status, historical trends, key parameters, and alarms of nuclear power units. Achievement: Thanks to the Vuetify-based admin template, the project was quickly migrated from Django SSR to Django REST framework + Vue architecture."
+      },
+      {
+        "period": "July 2019 - October 2019",
+        "title": "3D Flux Map Fitting Recovery Algorithm (Nustar)",
+        "role": "Algorithm Developer",
+        "description": "Introduction: Fitting the sparse measurement physical distribution (56*50 array) of the reactor's 3D core to a denser distribution (56*157*289 array). Achievement: Achieved excellent algorithm performance in terms of speed and accuracy."
+      }
+    ]
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Thoughts and insights",
+    "comingSoon": "Blog section coming soon...",
+    "readMore": "Read more",
+    "backToBlog": "Back to Blog"
+  },
+  "footer": {
+    "copyright": "© 2025 WEI Lingfeng. All rights reserved.",
+    "builtWith": "Built with Next.js and Tailwind CSS"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "retry": "Try again",
+    "close": "Close",
+    "open": "Open",
+    "menu": "Menu",
+    "darkMode": "Dark mode",
+    "lightMode": "Light mode"
+  }
+}
+
