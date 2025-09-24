@@ -1,11 +1,10 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { MapPin, Heart, Mail, Music, Activity, Guitar,   } from 'lucide-react'
+import { MapPin, Heart, Mail, Guitar } from 'lucide-react'
 import { useTranslations } from 'next-intl'
 import { Card, CardContent } from '@/components/ui/Card'
 import TriathlonSvg from '@/assets/svgs/triathlon.svg'
-import Image from 'next/image'
 
 
 export function AboutSection() {
