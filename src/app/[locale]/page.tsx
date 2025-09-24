@@ -13,7 +13,7 @@ export default function HomePage() {
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900">
       <Header />
-      <main>
+      <main className='mt-16'>
         <HeroSection />
         <AboutSection />
         <SkillsSection />

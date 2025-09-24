@@ -42,7 +42,7 @@ export function HeroSection() {
   }
 
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden">
+    <section id="home" className="min-h-screen flex flex-col justify-center relative overflow-hidden pb-8 sm:pb-16">
       {/* Background Elements */}
       <div className="absolute inset-0 -z-10">
         <div className="absolute top-1/4 left-1/4 w-72 h-72 bg-primary-500/10 rounded-full blur-3xl" />
@@ -84,6 +84,7 @@ export function HeroSection() {
           <motion.p
             className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto mb-12 leading-relaxed"
             variants={itemVariants}
+            title={t('description')}
           >
             {t('description')}
           </motion.p>

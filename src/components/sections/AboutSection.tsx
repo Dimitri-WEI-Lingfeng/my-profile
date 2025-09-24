@@ -14,10 +14,10 @@ export function AboutSection() {
   const getInterestIcons = (interestsText: string) => {
     const icons = []
     if (interestsText.includes('吉他') || interestsText.includes('Guitar')) {
-      icons.push({ icon: Guitar, label: '吉他' })
+      icons.push({ icon: Guitar, label: t('guitar') })
     }
     if (interestsText.includes('铁人') || interestsText.includes('Ironman')) {
-      icons.push({ icon: TriathlonSvg, label: '铁人三项' })
+      icons.push({ icon: TriathlonSvg, label: t('triathlon') })
     }
     return icons
   }
